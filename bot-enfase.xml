@@ -1,0 +1,30 @@
+<aiml>
+    <category>
+        <pattern>ENFASE</pattern>
+        <template>
+            <learn>./bot-enfase.xml</learn>
+            INFERNO
+            <srai>Computação visual</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMPUTAÇÃO VISUAL</pattern>
+        <template>área da ciência da computação que incide sobre os aspectos relacionados a técnicas de processamento, síntese, armazenamento, recuperação, visualização, e análise de imagens digitais.</template>
+    </category>
+
+    <category>
+        <pattern>SISTEMAS DE COMPUTAÇÃO</pattern>
+        <template>área da ciência da computação que incide sobre os aspectos relacionados a hardware, sistemas embarcados, automação e controle; e robótica.</template>
+    </category>
+
+    <category>
+        <pattern>SISTEMAS DE INFORMAÇÃO</pattern>
+        <template> área da ciência da computação que incide sobre os aspectos relacionados ao projeto e implementação de software com qualidade a partir de técnicas de engenharia de software e de novas tecnologias.</template>
+    </category>
+
+    <category>
+        <pattern>SISTEMAS INTELIGENTES</pattern>
+        <template>área da ciência da computação que incide sobre os aspectos relacionados a técnicas de inteligência artificial.</template>
+    </category>
+</aiml>

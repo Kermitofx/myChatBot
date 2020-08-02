@@ -1,0 +1,9 @@
+<aiml>
+    <category>
+        <pattern>OI</pattern>
+        <template>
+            <learn>./bot-converse.xml</learn>
+            INFERNO
+        </template>
+    </category>
+</aiml>

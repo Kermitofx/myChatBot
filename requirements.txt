@@ -1,0 +1,22 @@
+instalar python3
+
+criar uma virtualvenv:
+pip install virtualenv
+virtualenv nome_da_virtualenv
+
+ativar a virtualvenv:
+venv\Scripts\activate.bat
+
+desativar virtualvenv:
+deactivate
+
+Definir token na varivel de ambiente no windows 
+
+upgrade no pip
+python -m pip install --upgrade pip
+
+install pylint 
+
+install pytelegramBotAPI
+pip install pyTelegramBotAPI
+
