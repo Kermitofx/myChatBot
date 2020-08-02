@@ -1,0 +1,34 @@
+<aiml>
+    <category>
+        <pattern>MENU</pattern>
+        <template>
+            <learn>./menu.xml</learn>
+                Seja bem-vind@s, calouros. Vamos tentar te ajudar da melhor maneira possível, por favor, escolha o número da sua dúvida:
+                 1- Perguntas sobre matrículas <br />
+
+                2- Perguntas sobre disciplinas <br />
+
+                3- Perguntas sobre extensão/pesquisa <br />
+
+                4- Perguntas sobre administrativos <br />
+
+                5- Perguntas sobre secretaria <br />
+                
+                6- Perguntas sobre espaço digital <br />
+                
+                7- Perguntas sobre espaço físico <br />
+                
+
+
+            <!-- <p> 1- Perguntas sobre matrículas <br/></p>
+            <p> 2- Perguntas sobre disciplinas </p>
+            <p> 3- Perguntas sobre extensão/pesquisa </p>
+            <p> 4- Perguntas sobre administrativos </p>
+            <p> 5- Perguntas sobre secretaria </p>
+            <p> 6- Perguntas sobre espaço digital </p>
+            <p> 7- Perguntas sobre espaço físico </p> -->
+        
+           
+        </template>
+    </category>
+</aiml>

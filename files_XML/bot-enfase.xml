@@ -2,7 +2,7 @@
     <category>
         <pattern>ENFASE</pattern>
         <template>
-            <learn>./bot-enfase.xml</learn>
+            <!-- <learn>./bot-enfase.xml</learn> -->
             INFERNO
             <srai>Computação visual</srai>
         </template>
