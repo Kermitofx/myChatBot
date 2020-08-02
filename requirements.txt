@@ -20,3 +20,5 @@ install pylint
 install pytelegramBotAPI
 pip install pyTelegramBotAPI
 
+instalar aiml
+pip install python-aiml

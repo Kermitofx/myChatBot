@@ -4,8 +4,6 @@ import aiml
 
 bot = telebot.TeleBot(os.environ['BOT_API_TOKEN'])
 
-user = bot.get_me()
-
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     bot.reply_to(message, "Olá, bem vindo ao nosso botinho")
@@ -23,8 +21,8 @@ def send_exit(message):
 def converse(message):
     bot_ia = aiml.Kernel()
     bot_ia.learn('./bot-converse.xml')
-    # bot_ia.respond('OI')
-    bot.reply_to(message, 'OI')
+    saída = bot_ia.respond(message.text)
+    bot.reply_to(message, saída)
      # bot.reply_to(message, 'OI')
 
 bot.polling()
