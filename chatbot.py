@@ -2,7 +2,7 @@ import os
 import telebot
 import aiml
 
-bot = telebot.TeleBot(os.environ['BOT_API_TOKEN'])
+bot = telebot.TeleBot('1204400024:AAHfRCMIVApwtm0Iad09iSHwZH1go73fUU0')
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
